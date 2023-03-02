@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+#
+# SPDX-FileCopyrightText: 2023 Tristan Partin <tristan@partin.io>
+
+option('examples', type: 'boolean', value: true,
+    description: 'Build examples')
+option('long-options', type: 'feature', value: 'auto',
+    description: 'Enable support for getopt_long(3)')
+option('optional-arguments', type: 'feature', value: 'auto',
+    description: 'Enable support for optional arguments')
+option('tests', type: 'boolean', value: true,
+    description: 'Build tests')
