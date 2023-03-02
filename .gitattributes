@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: MIT
+#
+# SPDX-FileCopyrightText: 2023 Tristan Partin <tristan@partin.io>
+
+* text=auto
+
+# https://github.com/github/linguist/blob/master/docs/overrides.md
+
+subprojects/*.wrap linguist-language=INI
