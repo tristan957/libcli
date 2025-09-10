@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout libcli
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Lint
         uses: fsfe/reuse-action@v5
