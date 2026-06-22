@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          sudo apt-get install -y meson libbsd-dev
+          sudo apt-get install -y meson libbsd-dev libglib2.0-dev
 
       - name: Checkout libcli
         uses: actions/checkout@v3
